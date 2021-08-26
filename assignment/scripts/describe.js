@@ -47,9 +47,9 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 //Make a variable called sercret and leave the value blank.
 // Make another variable called code and set the value to 123 as a number.
-//Then set up a conditional have secret be 'super' string, if the variable code is exactly a number of 123, then multiply code by 2.
-//set up another conditional where if the code is greater than 250, the secret variable is set to 'duper' as a string.
-//console log the string secret.
+//Then set up a conditional if statement to have secret be 'super' as a string, if the variable code is exactly a number of 123, then multiply code by 2.
+//set up a conditional if statement where if the code is greater than the number 250, the secret variable is set to 'duper' as a string.
+//To check the answer console log the string "secret".
 
 //CODE
 /*
@@ -71,10 +71,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+//Set up a variable called isStudent to be true, a boolean.
+//Set up a variable called age to be the number 34.
+//Set another variable called zip to be the number 55407.
+//Start by writing a complex conditional statement begining with if the variable isStudent is exactly true, AND in addition if the variable zip is greater than 80000 the number.
+//Use the console .log to display a string 'You're a student on the West Coast!' for this if statment.
+//Write an else if conditional statement that checks that isStudent is the boolean false, OR if the variable age is less then the number 30.
+//Console log a string stating "What are your hobbies?" for this else if statment.
+//Then write a conditional statement for else if where if the variable isStudent is true, the console will log out "Welcome to Prime!"
+//Write one last condition, else, to log out 'How about the weather?' on the console.
 
 //CODE
 /*
@@ -95,6 +100,11 @@ if (isStudent === true && zip > 80000 ) {
 */
 
 
+
+
+
+
+// COMPLETED 1-3 FIRST DRAFT 
 
 
 // REVERSE
