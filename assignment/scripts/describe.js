@@ -6,6 +6,7 @@
 // (Don't just say 'we console log the variable' -- instead say something like 'we console log 'yes'')
 
 
+
 // 0. WRITE YOUR DESCRIPTION HERE
 // //EXAMPLE. We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
@@ -26,10 +27,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We make a variable called name and set it to "Dane" as a string.
-// Then we set up a conditional to log "Hi, Mary!" if name equals Mary.
-// If name is not "Mary" then the else conditional will log "How do you do?"
-//
+// We make a variable called name and set it to 'Dane' as a string.
+// We check to see if the name variable is exactly equal to 'Mary'.  It is not, so
+// We console log 'How do you do?'.
+
 
 //CODE
 /*
@@ -45,11 +46,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//Make a variable called sercret and leave the value blank.
-// Make another variable called code and set the value to 123 as a number.
-//Then set up a conditional if statement to have secret be 'super' as a string, if the variable code is exactly a number of 123, then multiply code by 2.
-//set up a conditional if statement where if the code is greater than the number 250, the secret variable is set to 'duper' as a string.
-//To check the answer console log the string "secret".
+//Make a variable called secret and do not assign the value.
+//Declare another variable called code and assign the value to the number 123.
+//Check to see if code is exactly the number 123. it is, so
+//The variable code is multiplied by two.
+//Console log 'super'.
+//
+//
 
 //CODE
 /*
@@ -71,15 +74,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//Set up a variable called isStudent to be true, a boolean.
+//Declare a variable called isStudent to be true, a boolean.
 //Set up a variable called age to be the number 34.
 //Set another variable called zip to be the number 55407.
-//Start by writing a complex conditional statement begining with if the variable isStudent is exactly true, AND in addition if the variable zip is greater than 80000 the number.
-//Use the console .log to display a string 'You're a student on the West Coast!' for this if statment.
-//Write an else if conditional statement that checks that isStudent is the boolean false, OR if the variable age is less then the number 30.
-//Console log a string stating "What are your hobbies?" for this else if statment.
-//Then write a conditional statement for else if where if the variable isStudent is true, the console will log out "Welcome to Prime!"
-//Write one last condition, else, to log out 'How about the weather?' on the console.
+
+//check if the condition of student being true AND zip is greater then 80000.
+//The zip is not greater than 80000, so we skip to the first else if.
+//Check if variable isStudent is false OR age is less than 30, neither side evaulates true, so we check next else if.
+//Check that variable isStudent IS true, it is.
+//Console log 'Welcome to Prime!'.
+
+
 
 //CODE
 /*
@@ -101,10 +106,6 @@ if (isStudent === true && zip > 80000 ) {
 
 
 
-
-
-
-// COMPLETED 1-3 FIRST DRAFT 
 
 
 // REVERSE
@@ -135,7 +136,6 @@ if (number >= 2) {
 */
 
 
-
 //4. We start with three variables -- colorOne is set to 'blue' and
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
@@ -153,11 +153,11 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+//FIX colorTwo = 'purple';
+//add colorTwo is to be 'purple'
 }
-//Fix colorOne + colorTwo is to be 'purple'
-//colorOne +colorTwo = 'purple'
-
 */
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4
@@ -168,9 +168,15 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+
+//FIX if (temp > 39 && time >= 4) {
+//temp is higher than 39 AND time is greater or equal to 4.
+
   console.log('throw away the food!');
 }
 */
+
+
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge
@@ -181,6 +187,10 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+
+//Fix if(age >= minAge)
+//age is greater than or equal to, not minAge is less than or equal to.
+
   console.log('no entry');
 } else {
   console.log('enter');
